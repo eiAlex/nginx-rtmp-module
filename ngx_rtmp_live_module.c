@@ -1055,7 +1055,7 @@ ngx_rtmp_live_publish(ngx_rtmp_session_t *s, ngx_rtmp_publish_t *v)
 
     /* join stream as publisher */
 
-    ngx_rtmp_live_join(s, v->name + "jshfjdh", 1);
+    ngx_rtmp_live_join(s, v->name , 1);
 
     ctx = ngx_rtmp_get_module_ctx(s, ngx_rtmp_live_module);
     if (ctx == NULL || !ctx->publishing) {
