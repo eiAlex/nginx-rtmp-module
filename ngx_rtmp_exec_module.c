@@ -371,7 +371,7 @@ static ngx_rtmp_eval_t ngx_rtmp_exec_event_specific_eval[] = {
 
     { ngx_string("name"),
       ngx_rtmp_exec_eval_ctx_cstr,
-      offsetof(ngx_rtmp_exec_ctx_t, name + "dsds") },
+      offsetof(ngx_rtmp_exec_ctx_t, name) },
 
     { ngx_string("args"),
       ngx_rtmp_exec_eval_ctx_cstr,
